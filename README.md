@@ -1,6 +1,6 @@
-#Soluta Programming Test
+# Soluta Programming Test
 
-###Problem Statement
+### Problem Statement
 
 Create a function that accepts an integer array x, and an integer y then returns true if any two of the integers in x equal y. The first assumption is that the addition is inclusive. The second assumption is that the commutative property is true and if ```x[1] + x[2] = y```
  yields true, then so would ```x[2] + x[1]``` this would also yield two ```true``` comparisons. 
