@@ -8,3 +8,5 @@ Create a function that accepts an integer array x, and an integer y then returns
 The second step is to create a second function that accepts the same two arguments as above but accepts a third integer ```z``` and also counts the number of true comparisons then compares this to a third integer ```z``` and returns a true of the number of comparisons equals ```z```. 
 
 Code was added for the possibility of excluding the same index of the array, if this is not desired then simply comment out those lines for inclusion. No code was written to take into account the commutative property of the initial problem.  
+
+For the code solution please navigate to src/soluta > Soluta.java. 
