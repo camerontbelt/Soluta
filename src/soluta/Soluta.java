@@ -17,9 +17,12 @@ public class Soluta {
 	public static boolean compare(int x[],int y){
 		for(int i = 0;i<x.length;i++){
                     for(int j = 0;j<x.length;j++){
-                        //System.out.print(x[i]+x[j] + " ");//for debug                     
-                        if((x[i]+x[j]) == y)
-                            return true;
+                        if(i != j){//comment out if inclusive
+                            //System.out.print(x[i]+x[j] + " ");//for debug                     
+                            if((x[i]+x[j]) == y)
+                                return true;
+                        }//comment out if inclusive
+                        
                     }
                     //System.out.println();//for debug
 		}
@@ -31,9 +34,11 @@ public class Soluta {
             int count = 0;
                 for(int i = 0;i<x.length;i++){
                     for(int j = 0;j<x.length;j++){
-                        //System.out.print(x[i]+x[j] + " ");//for debug                    
-                        if((x[i]+x[j]) == y)
-                            count++;
+                        if(i != j){//comment out if inclusive
+                            //System.out.print(x[i]+x[j] + " ");//for debug                     
+                            if((x[i]+x[j]) == y)
+                                count++;
+                        }//comment out if inclusive
                     }
                     //System.out.println();//for debug
 		}
@@ -44,7 +49,7 @@ public class Soluta {
 	}
 	
 	public static void main (String[] args) throws java.lang.Exception{
-		int[] x = {1,2,3,4,5,6,7,8,9,1};//array of integers
+		int[] x = {1,2,3,4,5,6,7,8,9,10};//array of integers
 		int y = 18;//integer to compare to
 		int z = 2;//comparisions to count to
                 
